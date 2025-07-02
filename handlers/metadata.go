@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"time"
 )
-var RootPath = "/home/vishesh"
+var RootPath = "/home/visheshpanchal"
 
 type FileMetadata struct {
 	Name     string         `json:"name"`

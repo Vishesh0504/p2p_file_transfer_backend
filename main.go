@@ -17,7 +17,7 @@ func main() {
 
 	// Create CORS handler with appropriate settings for WebRTC
 	c := cors.New(cors.Options{
-		AllowedOrigins: []string{"http://localhost:3000","http://192.168.38.204:3000"},
+		AllowedOrigins: []string{"http://localhost:3000","http://192.168.29.40:3000"},
 		AllowedMethods: []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowedHeaders: []string{
 			"Content-Type",
